@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pymongo
+python-multipart
+streamlit
+PyMuPDF
+python-docx
+python-pptx
+transformers
+torch
+pillow
+python-dotenv
+requests
+langchain-huggingface
