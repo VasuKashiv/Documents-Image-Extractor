@@ -3,5 +3,5 @@
 /backend/.env
 /doc-image-ui/node_modules
 /doc-image-ui/.env.local
-/doc-image-ui/images
-/doc-image-ui/uploads
+/backend/images
+/backend/uploads
