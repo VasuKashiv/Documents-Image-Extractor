@@ -1,0 +1,586 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "BadZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "ZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "InstructBlipProcessor",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "InstructBlipForConditionalGeneration",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "fitz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fitz",
+        "description": "fitz",
+        "detail": "fitz",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "docx",
+        "description": "docx",
+        "isExtraImport": true,
+        "detail": "docx",
+        "documentation": {}
+    },
+    {
+        "label": "Presentation",
+        "importPath": "pptx",
+        "description": "pptx",
+        "isExtraImport": true,
+        "detail": "pptx",
+        "documentation": {}
+    },
+    {
+        "label": "insert_image",
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "isExtraImport": true,
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "starlette.middleware.cors",
+        "description": "starlette.middleware.cors",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "extract_file",
+        "kind": 2,
+        "importPath": "backend.venv.Scripts.vba_extract",
+        "description": "backend.venv.Scripts.vba_extract",
+        "peekOfCode": "def extract_file(xlsm_zip, filename):\n    # Extract a single file from an Excel xlsm macro file.\n    data = xlsm_zip.read(\"xl/\" + filename)\n    # Write the data to a local file.\n    file = open(filename, \"wb\")\n    file.write(data)\n    file.close()\n# The VBA project file and project signature file we want to extract.\nvba_filename = \"vbaProject.bin\"\nvba_signature_filename = \"vbaProjectSignature.bin\"",
+        "detail": "backend.venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "vba_filename",
+        "kind": 5,
+        "importPath": "backend.venv.Scripts.vba_extract",
+        "description": "backend.venv.Scripts.vba_extract",
+        "peekOfCode": "vba_filename = \"vbaProject.bin\"\nvba_signature_filename = \"vbaProjectSignature.bin\"\n# Get the xlsm file name from the commandline.\nif len(sys.argv) > 1:\n    xlsm_file = sys.argv[1]\nelse:\n    print(\n        \"\\nUtility to extract a vbaProject.bin binary from an Excel 2007+ \"\n        \"xlsm macro file for insertion into an XlsxWriter file.\\n\"\n        \"If the macros are digitally signed, extracts also a vbaProjectSignature.bin \"",
+        "detail": "backend.venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "vba_signature_filename",
+        "kind": 5,
+        "importPath": "backend.venv.Scripts.vba_extract",
+        "description": "backend.venv.Scripts.vba_extract",
+        "peekOfCode": "vba_signature_filename = \"vbaProjectSignature.bin\"\n# Get the xlsm file name from the commandline.\nif len(sys.argv) > 1:\n    xlsm_file = sys.argv[1]\nelse:\n    print(\n        \"\\nUtility to extract a vbaProject.bin binary from an Excel 2007+ \"\n        \"xlsm macro file for insertion into an XlsxWriter file.\\n\"\n        \"If the macros are digitally signed, extracts also a vbaProjectSignature.bin \"\n        \"file.\\n\"",
+        "detail": "backend.venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "generate_caption",
+        "kind": 2,
+        "importPath": "backend.captioner",
+        "description": "backend.captioner",
+        "peekOfCode": "def generate_caption(image_path: str) -> str:\n    try:\n        img = Image.open(image_path).convert(\"RGB\")\n        inputs = processor(images=img, text=PROMPT, return_tensors=\"pt\").to(device)\n        outputs = model.generate(\n            **inputs,\n            max_new_tokens=150,\n            num_beams=5,\n            length_penalty=1.2,\n            no_repeat_ngram_size=2,",
+        "detail": "backend.captioner",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.captioner",
+        "description": "backend.captioner",
+        "peekOfCode": "BASE_DIR = Path(__file__).parent\nload_dotenv(BASE_DIR / \".env\")\n# 2) Pick device (CUDA if available)\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nprint(f\"Using device: {device}\")\n# 3) Load processor & model from Salesforce/instructblip-flan-t5-xl\nprocessor = InstructBlipProcessor.from_pretrained(\n    \"Salesforce/instructblip-flan-t5-xl\", \n    use_fast=True\n)",
+        "detail": "backend.captioner",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "backend.captioner",
+        "description": "backend.captioner",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nprint(f\"Using device: {device}\")\n# 3) Load processor & model from Salesforce/instructblip-flan-t5-xl\nprocessor = InstructBlipProcessor.from_pretrained(\n    \"Salesforce/instructblip-flan-t5-xl\", \n    use_fast=True\n)\nmodel = InstructBlipForConditionalGeneration.from_pretrained(\n    \"Salesforce/instructblip-flan-t5-xl\",torch_dtype=torch.float16 if device.type == \"cuda\" else torch.float32\n).to(device)",
+        "detail": "backend.captioner",
+        "documentation": {}
+    },
+    {
+        "label": "processor",
+        "kind": 5,
+        "importPath": "backend.captioner",
+        "description": "backend.captioner",
+        "peekOfCode": "processor = InstructBlipProcessor.from_pretrained(\n    \"Salesforce/instructblip-flan-t5-xl\", \n    use_fast=True\n)\nmodel = InstructBlipForConditionalGeneration.from_pretrained(\n    \"Salesforce/instructblip-flan-t5-xl\",torch_dtype=torch.float16 if device.type == \"cuda\" else torch.float32\n).to(device)\nmodel.eval()\n# 3) Prompt & rules for generation\nPROMPT = \"\"\"",
+        "detail": "backend.captioner",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "backend.captioner",
+        "description": "backend.captioner",
+        "peekOfCode": "model = InstructBlipForConditionalGeneration.from_pretrained(\n    \"Salesforce/instructblip-flan-t5-xl\",torch_dtype=torch.float16 if device.type == \"cuda\" else torch.float32\n).to(device)\nmodel.eval()\n# 3) Prompt & rules for generation\nPROMPT = \"\"\"\nYou are an expert image captioning assistant. Follow these rules exactly when describing the image:\n1. **Length**: Output **2-3 sentences** (roughly 50-60 words).  \n2. **Content**:  \n   - Identify the **main subject(s)** (people, objects, animals).  ",
+        "detail": "backend.captioner",
+        "documentation": {}
+    },
+    {
+        "label": "PROMPT",
+        "kind": 5,
+        "importPath": "backend.captioner",
+        "description": "backend.captioner",
+        "peekOfCode": "PROMPT = \"\"\"\nYou are an expert image captioning assistant. Follow these rules exactly when describing the image:\n1. **Length**: Output **2-3 sentences** (roughly 50-60 words).  \n2. **Content**:  \n   - Identify the **main subject(s)** (people, objects, animals).  \n   - Mention two or three **key attributes** (color, size, posture).  \n   - Describe any obvious **action** or **activity**.  \n   - Summarize the **scene context** (environment, location, mood).  \n3. **Style**:  \n   - Write in **natural language**, not bullet points.  ",
+        "detail": "backend.captioner",
+        "documentation": {}
+    },
+    {
+        "label": "create_document",
+        "kind": 2,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "def create_document(filename: str) -> ObjectId:\n    existing = documents_col.find_one({\"filename\": filename})\n    if existing:\n        return existing[\"_id\"]\n    doc = {\n        \"filename\": filename,\n        \"uploaded_at\": datetime.utcnow()\n    }\n    return documents_col.insert_one(doc).inserted_id\ndef insert_image(document_id: ObjectId,",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "insert_image",
+        "kind": 2,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "def insert_image(document_id: ObjectId,\n                 storage_key: str,\n                 page_or_slide: int) -> ObjectId:\n    img = {\n        \"document_id\": document_id,\n        \"storage_key\": storage_key,        # e.g. \"2025/04/28/uuid.png\"\n        \"page_or_slide\": page_or_slide,\n        \"caption\": None,\n        \"caption_source\": None,\n        \"created_at\": datetime.utcnow()",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "delete_images_by_document",
+        "kind": 2,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "def delete_images_by_document(document_id: ObjectId):\n    # Remove metadata; delete files themselves via cleanup script if desired\n    images_col.delete_many({\"document_id\": document_id})\ndef update_image_caption(image_id: ObjectId,\n                         caption: str,\n                         caption_source: str):\n    images_col.update_one(\n        {\"_id\": image_id},\n        {\"$set\": {\"caption\": caption, \"caption_source\": caption_source}}\n    )",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "update_image_caption",
+        "kind": 2,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "def update_image_caption(image_id: ObjectId,\n                         caption: str,\n                         caption_source: str):\n    images_col.update_one(\n        {\"_id\": image_id},\n        {\"$set\": {\"caption\": caption, \"caption_source\": caption_source}}\n    )\ndef get_images_by_document(document_id: ObjectId):\n    return list(images_col.find({\"document_id\": document_id}))\ndef get_all_images_with_docs():",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_images_by_document",
+        "kind": 2,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "def get_images_by_document(document_id: ObjectId):\n    return list(images_col.find({\"document_id\": document_id}))\ndef get_all_images_with_docs():\n    pipeline = [\n        {\n            \"$lookup\": {\n                \"from\": \"documents\",\n                \"localField\": \"document_id\",\n                \"foreignField\": \"_id\",\n                \"as\": \"doc\"",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_images_with_docs",
+        "kind": 2,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "def get_all_images_with_docs():\n    pipeline = [\n        {\n            \"$lookup\": {\n                \"from\": \"documents\",\n                \"localField\": \"document_id\",\n                \"foreignField\": \"_id\",\n                \"as\": \"doc\"\n            }\n        },",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "BASE_DIR = Path(__file__).parent\nload_dotenv(BASE_DIR / \".env\")\nMONGODB_URI = os.getenv(\"MONGODB_URI\", \"mongodb://localhost:27017\")\nclient = MongoClient(MONGODB_URI)\ndb = client[\"doc_image_demo\"]\ndocuments_col = db[\"documents\"]\nimages_col    = db[\"images\"]\ndef create_document(filename: str) -> ObjectId:\n    existing = documents_col.find_one({\"filename\": filename})\n    if existing:",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "MONGODB_URI",
+        "kind": 5,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "MONGODB_URI = os.getenv(\"MONGODB_URI\", \"mongodb://localhost:27017\")\nclient = MongoClient(MONGODB_URI)\ndb = client[\"doc_image_demo\"]\ndocuments_col = db[\"documents\"]\nimages_col    = db[\"images\"]\ndef create_document(filename: str) -> ObjectId:\n    existing = documents_col.find_one({\"filename\": filename})\n    if existing:\n        return existing[\"_id\"]\n    doc = {",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "client = MongoClient(MONGODB_URI)\ndb = client[\"doc_image_demo\"]\ndocuments_col = db[\"documents\"]\nimages_col    = db[\"images\"]\ndef create_document(filename: str) -> ObjectId:\n    existing = documents_col.find_one({\"filename\": filename})\n    if existing:\n        return existing[\"_id\"]\n    doc = {\n        \"filename\": filename,",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "db = client[\"doc_image_demo\"]\ndocuments_col = db[\"documents\"]\nimages_col    = db[\"images\"]\ndef create_document(filename: str) -> ObjectId:\n    existing = documents_col.find_one({\"filename\": filename})\n    if existing:\n        return existing[\"_id\"]\n    doc = {\n        \"filename\": filename,\n        \"uploaded_at\": datetime.utcnow()",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "documents_col",
+        "kind": 5,
+        "importPath": "backend.db",
+        "description": "backend.db",
+        "peekOfCode": "documents_col = db[\"documents\"]\nimages_col    = db[\"images\"]\ndef create_document(filename: str) -> ObjectId:\n    existing = documents_col.find_one({\"filename\": filename})\n    if existing:\n        return existing[\"_id\"]\n    doc = {\n        \"filename\": filename,\n        \"uploaded_at\": datetime.utcnow()\n    }",
+        "detail": "backend.db",
+        "documentation": {}
+    },
+    {
+        "label": "extract_from_pdf",
+        "kind": 2,
+        "importPath": "backend.extractor",
+        "description": "backend.extractor",
+        "peekOfCode": "def extract_from_pdf(path: str, doc_id: ObjectId, images_dir: str):\n    pdf = fitz.open(path)\n    for p in range(len(pdf)):\n        page = pdf[p]\n        for img_index, img in enumerate(page.get_images(full=True)):\n            xref = img[0]\n            base = pdf.extract_image(xref)\n            _save_and_record(base[\"image\"], doc_id, p+1, images_dir)\ndef extract_from_docx(path: str, doc_id: ObjectId, images_dir: str):\n    doc = DocxDocument(path)",
+        "detail": "backend.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "extract_from_docx",
+        "kind": 2,
+        "importPath": "backend.extractor",
+        "description": "backend.extractor",
+        "peekOfCode": "def extract_from_docx(path: str, doc_id: ObjectId, images_dir: str):\n    doc = DocxDocument(path)\n    for rel in doc.part._rels.values():\n        if \"image\" in rel.target_ref:\n            blob = rel.target_part.blob\n            _save_and_record(blob, doc_id, None, images_dir)\ndef extract_from_pptx(path: str, doc_id: ObjectId, images_dir: str):\n    prs = Presentation(path)\n    for s_idx, slide in enumerate(prs.slides):\n        for shape in slide.shapes:",
+        "detail": "backend.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "extract_from_pptx",
+        "kind": 2,
+        "importPath": "backend.extractor",
+        "description": "backend.extractor",
+        "peekOfCode": "def extract_from_pptx(path: str, doc_id: ObjectId, images_dir: str):\n    prs = Presentation(path)\n    for s_idx, slide in enumerate(prs.slides):\n        for shape in slide.shapes:\n            if hasattr(shape, \"image\"):\n                blob = shape.image.blob\n                _save_and_record(blob, doc_id, s_idx+1, images_dir)\ndef extract_from_xlsx(path: str, doc_id: ObjectId, images_dir: str):\n    with zipfile.ZipFile(path, 'r') as zf:\n        for name in zf.namelist():",
+        "detail": "backend.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "extract_from_xlsx",
+        "kind": 2,
+        "importPath": "backend.extractor",
+        "description": "backend.extractor",
+        "peekOfCode": "def extract_from_xlsx(path: str, doc_id: ObjectId, images_dir: str):\n    with zipfile.ZipFile(path, 'r') as zf:\n        for name in zf.namelist():\n            if name.startswith('xl/media/') and name.lower().endswith(('.png','.jpg','.jpeg','.gif','bmp')):\n                data = zf.read(name)\n                _save_and_record(data, doc_id, None, images_dir)",
+        "detail": "backend.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "list_images",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def list_images():\n    docs = get_all_images_with_docs()\n    return [\n        {\n          \"id\":               str(i[\"_id\"]),\n          \"document_id\":      str(i[\"document_id\"]),\n          \"url\":              f\"/images/static/{i['storage_key']}\",\n          \"caption\":          i[\"caption\"],\n          \"caption_source\":   i[\"caption_source\"],\n          \"document_filename\":i[\"doc\"][\"filename\"],",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_DIR",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "UPLOAD_DIR = BASE_DIR / \"uploads\"\nIMAGES_DIR = BASE_DIR / \"images\"\nUPLOAD_DIR.mkdir(exist_ok=True)\nIMAGES_DIR.mkdir(exist_ok=True)\napp = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"], allow_methods=[\"*\"], allow_headers=[\"*\"]\n)\napp.mount(\"/images/static\", StaticFiles(directory=str(IMAGES_DIR)), name=\"static\")",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGES_DIR",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "IMAGES_DIR = BASE_DIR / \"images\"\nUPLOAD_DIR.mkdir(exist_ok=True)\nIMAGES_DIR.mkdir(exist_ok=True)\napp = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"], allow_methods=[\"*\"], allow_headers=[\"*\"]\n)\napp.mount(\"/images/static\", StaticFiles(directory=str(IMAGES_DIR)), name=\"static\")\ndef _bg_caption_and_update(image_id, image_path):",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"], allow_methods=[\"*\"], allow_headers=[\"*\"]\n)\napp.mount(\"/images/static\", StaticFiles(directory=str(IMAGES_DIR)), name=\"static\")\ndef _bg_caption_and_update(image_id, image_path):\n    try:\n        cap = captioner.generate_caption(image_path)\n    except Exception:",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "doc-image-ui.node_modules.flatted.python.flatted",
+        "description": "doc-image-ui.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "doc-image-ui.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "doc-image-ui.node_modules.flatted.python.flatted",
+        "description": "doc-image-ui.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "doc-image-ui.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "doc-image-ui.node_modules.flatted.python.flatted",
+        "description": "doc-image-ui.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "doc-image-ui.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "doc-image-ui.node_modules.flatted.python.flatted",
+        "description": "doc-image-ui.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "doc-image-ui.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]

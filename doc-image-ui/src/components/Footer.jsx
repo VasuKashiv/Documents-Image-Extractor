@@ -15,7 +15,7 @@ export default function Footer() {
       }}
     >
       <Typography variant="body2" color="textSecondary">
-        © 2025 Your Company. All rights reserved.
+        © 2025 XYZ Company. All rights reserved.
       </Typography>
     </Box>
   );

@@ -8,7 +8,7 @@
 
 # HF_TOKEN = os.getenv("HF_API_TOKEN")
 # MODEL_ID = "Salesforce/blip-image-captioning-large"
-# MODEL_ID="Salesforce/instructblip-flan-t5-xl"
+# # MODEL_ID="Salesforce/instructblip-flan-t5-xl"
 # # Initialize the InferenceClient once
 # client = InferenceClient(
 #     provider="hf-inference",
@@ -33,7 +33,7 @@
 #         return "Error generating caption"
 
 
-# captioner.py (local mode)
+# # captioner.py (local mode)
 
 
 import os
@@ -41,21 +41,26 @@ import traceback
 from dotenv import load_dotenv
 from PIL import Image
 import torch
-from transformers import InstructBlipProcessor, InstructBlipForConditionalGeneration
+from transformers import (
+    InstructBlipProcessor,
+    InstructBlipForConditionalGeneration
+)
 from pathlib import Path
 
 # ensure we load from backend/.env
 BASE_DIR = Path(__file__).parent
 load_dotenv(BASE_DIR / ".env")
 
-# pick device
+# 2) Pick device (CUDA if available)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"⚙️ Using device: {device}")
-
-# 1) Load model & processor
-processor = InstructBlipProcessor.from_pretrained("Salesforce/instructblip-flan-t5-xl")
-model     = InstructBlipForConditionalGeneration.from_pretrained(
-    "Salesforce/instructblip-flan-t5-xl"
+print(f"Using device: {device}")
+# 3) Load processor & model from Salesforce/instructblip-flan-t5-xl
+processor = InstructBlipProcessor.from_pretrained(
+    "Salesforce/instructblip-flan-t5-xl", 
+    use_fast=True
+)
+model = InstructBlipForConditionalGeneration.from_pretrained(
+    "Salesforce/instructblip-flan-t5-xl",torch_dtype=torch.float16 if device.type == "cuda" else torch.float32
 ).to(device)
 model.eval()
 
@@ -63,10 +68,10 @@ model.eval()
 PROMPT = """
 You are an expert image captioning assistant. Follow these rules exactly when describing the image:
 
-1. **Length**: Output **2-3 sentences** (roughly 40-50 words).  
+1. **Length**: Output **2-3 sentences** (roughly 50-60 words).  
 2. **Content**:  
    - Identify the **main subject(s)** (people, objects, animals).  
-   - Mention one or two **key attributes** (color, size, posture).  
+   - Mention two or three **key attributes** (color, size, posture).  
    - Describe any obvious **action** or **activity**.  
    - Summarize the **scene context** (environment, location, mood).  
 3. **Style**:  
@@ -88,14 +93,14 @@ def generate_caption(image_path: str) -> str:
 
         outputs = model.generate(
             **inputs,
-            max_new_tokens=100,
-            num_beams=4,
-            length_penalty=1.0,
+            max_new_tokens=150,
+            num_beams=5,
+            length_penalty=1.2,
             no_repeat_ngram_size=2,
             early_stopping=True
         )
-
         caption = processor.batch_decode(outputs, skip_special_tokens=True)[0].strip()
+        torch.cuda.empty_cache()
         return caption or "Unavailable"
     except Exception as e:
         # Print full traceback to your FastAPI console

@@ -16,3 +16,20 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+/* Masonry layout tweaks */
+.masonry-grid {
+  display: flex;
+  margin-left: -16px; /* gutter size */
+  width: auto;
+}
+.masonry-grid_column {
+  padding-left: 16px; /* gutter size */
+  background-clip: padding-box;
+}
+.masonry-item {
+  margin-bottom: 16px;
+  position: relative;
+}
+.masonry-item:hover .overlay {
+  opacity: 1 !important;
+}
